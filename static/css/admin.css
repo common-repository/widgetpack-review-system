@@ -1,0 +1,45 @@
+#wpcontent {
+  background-color:#fafafa;
+}
+
+#wprev-wrap input[type="checkbox"] {
+  vertical-align: baseline;
+}
+
+#wpac-setup input[type="checkbox"]:before,
+#wpac-setup input[type="radio"]:before,
+#wprev-wrap input[type="checkbox"]:before,
+#wprev-wrap input[type="radio"]:before {
+  margin: 0;
+}
+
+#wprev-wrap .wprev-exported ,
+#wprev-wrap .wprev-imported {
+  color: #4caf50;
+}
+
+#wprev-tabs {
+  text-align: right;
+}
+
+#wprev-tabs li {
+  display: inline-block;
+  color: #333;
+  padding: 0.25em;
+  height: 16px;
+  cursor: pointer;
+  margin-right: 8px;
+  text-align: right;
+}
+
+#wprev-tabs li.selected {
+  font-weight: bold;
+}
+
+#wpac-admin .sidebar, #wpac-admin .navbar {
+  display: none;
+}
+
+#wprev-plugin-pane .wprev-enabled-text {
+  color: #4caf50;
+}
